@@ -1,0 +1,117 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte moderna */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fundo neutro */
+    color: #ddd0d0; /* Cor de texto padrão */
+}
+
+
+/* Tarja do Título */
+header {
+    background-color: #ffcccb; /* Rosa claro */
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* Estilo do Título */
+h1 {
+    font-size: 2.5em;
+    color: #fcf3f3;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+
+/* Estilo do Menu */
+nav {
+    background-color: #9AC9E2; /* Azul claro */
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombras */
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul li {
+    margin: 0 15px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+nav ul li a:hover {
+    background-color: #f78a9d; /* Efeito hover */
+    border-radius: 5px;
+}
+
+
+/* Estilo das Seções */
+section {
+    padding: 40px;
+    text-align: center; /* Centraliza o texto */
+    max-width: 1200px; /* Largura máxima para melhor leitura */
+    margin: 0 auto; /* Centraliza a seção */
+    color: #555;
+}
+
+
+/* Estilo dos Títulos das Seções */
+h2 {
+    font-size: 28px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+/* Estilo dos Parágrafos */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+/* Estilo para a Imagem */
+img {
+    max-width: 80%; /* Imagem responsiva */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra nas imagens */
+}
+
+/* imagem da página Clueb do Livro */
+img{
+    width: 300px;
+    height: auto;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ddd0d0; 
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1); /* Sombras */
+}
+
